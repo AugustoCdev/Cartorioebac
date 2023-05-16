@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-flex{
+    display: flex;
+}
+
+#nome,
+#email{
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+header h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 2.2rem;
+}
+
+.formulario{
+background-color: rgba(235, 216, 216, 0.384);
+padding: 15px;
+width: 50%;
+border-radius: 20px;
+margin-left: 300px;
+}
+
+form input,
+form button{
+    margin: 10px 0;
+}
+
+.form-check label{
+    color:rgba(0, 0, 0, 0.708);
+}
